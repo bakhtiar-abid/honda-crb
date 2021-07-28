@@ -17,6 +17,264 @@
       <link rel="stylesheet" href="CSS/style.css" />
    </head>
    <body>
+      <!-- Header Section Start  -->
+      <header>
+         <!-- Navigation Section Start  -->
+         <nav class="navbar navbar-expand-lg navbar-light top-bg-info">
+            <div class="container">
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav mt-2 ms-auto">
+                     <li class="nav-item pe-4">
+                        <a
+                           class="nav-link text-white"
+                           aria-current="page"
+                           href="#"
+                           >Home</a
+                        >
+                     </li>
+                     <li class="nav-item pe-4">
+                        <a class="nav-link text-white" href="#">Shop</a>
+                     </li>
+                     <li class="nav-item pe-4">
+                        <a class="nav-link text-white" href="#">News</a>
+                     </li>
+                     <li class="nav-item pe-2">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                     </li>
+                  </ul>
+                  <div>
+                     <button class="btn button-link text-white mt-3">
+                        Login
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </nav>
+         <!-- Navigation Section End  -->
+
+         <!-- Top Banner Part Start  -->
+         <section class="top-bg-info container-fluid">
+            <div
+               class="
+                  row
+                  d-flex
+                  justify-content-lg-around justify-content-center
+                  align-items-center
+                  container
+                  mx-auto
+               "
+            >
+               <div class="col-lg-6 col-12">
+                  <small class="text-white">
+                     Computer-controlled digital transistorized with electronic
+                     advance
+                  </small>
+                  <h1 class="text-white header-title mb-4">Honda CBR 300R</h1>
+                  <p class="text-white">
+                     Mated to a six-speed transmission, the Honda CBR300R is
+                     powered by a 286cc, single-cylinder, liquid-cooled engine,
+                     producing 31PS of power at 8,500rpm and a peak torque.
+                  </p>
+
+                  <!-- Modal -->
+                  <!-- Button trigger modal -->
+                  <button
+                     type="button"
+                     class="btn purchase-button text-white"
+                     data-bs-toggle="modal"
+                     data-bs-target="#exampleModal"
+                  >
+                     Purchase
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                     class="modal fade"
+                     id="exampleModal"
+                     tabindex="-1"
+                     aria-labelledby="exampleModalLabel"
+                     aria-hidden="true"
+                  >
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                           <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">
+                                 Shipping Address
+                              </h5>
+                              <button
+                                 type="button"
+                                 class="btn-close"
+                                 data-bs-dismiss="modal"
+                                 aria-label="Close"
+                              ></button>
+                           </div>
+                           <div class="modal-body">
+                              <form class="row g-3">
+                                 <div class="col-md-4">
+                                    <label
+                                       for="validationDefault01"
+                                       class="form-label"
+                                       >First name</label
+                                    >
+                                    <input
+                                       type="text"
+                                       class="form-control"
+                                       id="validationDefault01"
+                                       value=""
+                                       required
+                                    />
+                                 </div>
+                                 <div class="col-md-4">
+                                    <label
+                                       for="validationDefault02"
+                                       class="form-label"
+                                       >Last name</label
+                                    >
+                                    <input
+                                       type="text"
+                                       class="form-control"
+                                       id="validationDefault02"
+                                       value=""
+                                       required
+                                    />
+                                 </div>
+                                 <div class="col-md-4">
+                                    <label
+                                       for="validationDefaultUsername"
+                                       class="form-label"
+                                       >Username</label
+                                    >
+                                    <div class="input-group">
+                                       <span
+                                          class="input-group-text"
+                                          id="inputGroupPrepend2"
+                                          >@</span
+                                       >
+                                       <input
+                                          type="text"
+                                          class="form-control"
+                                          id="validationDefaultUsername"
+                                          aria-describedby="inputGroupPrepend2"
+                                          required
+                                       />
+                                    </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                    <label
+                                       for="validationDefault03"
+                                       class="form-label"
+                                       >City</label
+                                    >
+                                    <input
+                                       type="text"
+                                       class="form-control"
+                                       id="validationDefault03"
+                                       required
+                                    />
+                                 </div>
+                                 <div class="col-md-3">
+                                    <label
+                                       for="validationDefault04"
+                                       class="form-label"
+                                       >State</label
+                                    >
+                                    <select
+                                       class="form-select"
+                                       id="validationDefault04"
+                                       required
+                                    >
+                                       <option selected disabled value="">
+                                          Choose...
+                                       </option>
+                                       <option>...</option>
+                                    </select>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <label
+                                       for="validationDefault05"
+                                       class="form-label"
+                                       >Zip</label
+                                    >
+                                    <input
+                                       type="text"
+                                       class="form-control"
+                                       id="validationDefault05"
+                                       required
+                                    />
+                                 </div>
+                                 <div class="col-12">
+                                    <div class="form-check">
+                                       <input
+                                          class="form-check-input"
+                                          type="checkbox"
+                                          value=""
+                                          id="invalidCheck2"
+                                          required
+                                       />
+                                       <label
+                                          class="form-check-label"
+                                          for="invalidCheck2"
+                                       >
+                                          Agree to terms and conditions
+                                       </label>
+                                    </div>
+                                 </div>
+                                 <div class="col-12">
+                                    <button
+                                       class="btn purchase-button text-white"
+                                       type="submit"
+                                    >
+                                       Submit form
+                                    </button>
+                                 </div>
+                              </form>
+                           </div>
+                           <div class="modal-footer">
+                              <button
+                                 type="button"
+                                 class="btn btn-secondary"
+                                 data-bs-dismiss="modal"
+                              >
+                                 Close
+                              </button>
+                              <button
+                                 type="button"
+                                 class="btn purchase-button text-white"
+                              >
+                                 Save changes
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-6 col-12 header-right-img">
+                  <img class="img-fluid" src="images/header-bike.png" alt="" />
+
+                  <div class="header-right-bg-info">
+                     <img src="/images/header-right-img.png" alt="" srcset="" />
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <div></div>
+      </header>
       <!-- Bootstrap Script -->
       <script
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
