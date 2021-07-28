@@ -12,6 +12,12 @@ body {
    font-family: "Poppins", sans-serif;
 }
 
+hr {
+   width: 60px;
+   border: 1px solid #e76f51;
+   border-radius: 1px;
+   height: 20px;
+}
 /* ----------------------
 Navbar Style 
 -------------------------*/
@@ -39,14 +45,10 @@ Top Banner Style
    padding: 10px 20px;
    background-color: #e76f51;
 }
-.header-right-img {
-   position: relative;
-   z-index: ;
-}
 
-.header-right-bg-info {
-   position: absolute;
-   top: 100px;
-   left: 495px;
-   z-index: 1;
+/* ----------------------
+Featured Bikes Style
+-------------------------*/
+.bike-grayscale {
+   filter: grayscale(100%);
 }
