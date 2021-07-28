@@ -32,6 +32,12 @@ Navbar Style
    margin-left: 125px;
 }
 
+.button-link:hover {
+   border: 1px solid #e76f51;
+   background-color: white;
+   color: #e76f51 !important;
+}
+
 /* ----------------------
 Top Banner Style
 -------------------------*/
@@ -41,9 +47,15 @@ Top Banner Style
    font-weight: 600;
 }
 
-.purchase-button {
+.common-button {
    padding: 10px 20px;
    background-color: #e76f51;
+}
+
+.common-button:hover {
+   border: 1px solid #e76f51;
+   background-color: white;
+   color: #e76f51 !important;
 }
 
 /* ----------------------
@@ -51,4 +63,11 @@ Featured Bikes Style
 -------------------------*/
 .bike-grayscale {
    filter: grayscale(100%);
+}
+
+/* ----------------------
+Latest News Style
+-------------------------*/
+.card-width {
+   width: 90%;
 }
