@@ -12,11 +12,14 @@ body {
    font-family: "Poppins", sans-serif;
 }
 
+.common-text-color {
+   color: #e76f51;
+}
 hr {
    width: 60px;
+
    border: 1px solid #e76f51;
    border-radius: 1px;
-   height: 20px;
 }
 /* ----------------------
 Navbar Style 
@@ -70,4 +73,30 @@ Latest News Style
 -------------------------*/
 .card-width {
    width: 90%;
+}
+
+/* ----------------------
+Happy Client Style
+-------------------------*/
+
+.client-img {
+   width: 75%;
+   padding: 8%;
+}
+
+.feedback {
+   padding: 18%;
+}
+.client-feedback {
+   font-size: 16px;
+   line-height: 26px;
+   font-size: 16px;
+}
+
+.fa-star {
+   color: #e77c40;
+}
+
+.blank-star {
+   color: #aeaeae;
 }
