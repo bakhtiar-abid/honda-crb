@@ -100,3 +100,19 @@ Happy Client Style
 .blank-star {
    color: #aeaeae;
 }
+
+/* -----------------------
+Support Section Style  
+--------------------------*/
+
+.support-bg-info {
+   background-color: #ff5400;
+   padding: 5%;
+}
+
+.service-img,
+.service-img-icon {
+   background-color: #fd7532;
+   border-radius: 35px;
+   padding: 15px;
+}
