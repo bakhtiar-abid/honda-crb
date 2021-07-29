@@ -132,3 +132,19 @@ Innovation Section Style
    display: block;
    transform: scale(1.1);
 }
+
+/*-----------------------
+ Heritage Challenge Style 
+ --------------------------*/
+
+.heritage-bg-info {
+   background-color: black;
+}
+
+.heritage-button {
+   padding: 8px 20px;
+   border: 1px solid white;
+   background-color: black;
+   border-radius: 20px;
+   text-decoration: none;
+}
